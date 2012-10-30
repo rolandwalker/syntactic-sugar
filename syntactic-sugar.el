@@ -145,13 +145,7 @@
                              "unwind"
                              )))
          (font-lock-add-keywords 'emacs-lisp-mode `((,(concat "(\\s-*" (regexp-opt new-keywords 'paren) "\\>")
-                                                     1 font-lock-keyword-face)) 'append))
-       (dolist (buf (buffer-list))
-         (with-current-buffer buf
-           (when (and (eq major-mode 'emacs-lisp-mode)
-                      (boundp 'font-lock-mode)
-                      font-lock-mode)
-             (font-lock-refresh-defaults)))))))
+                                                     1 font-lock-keyword-face)) 'append)))))
 
 ;;; macros
 
