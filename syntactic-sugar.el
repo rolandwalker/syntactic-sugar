@@ -7,7 +7,7 @@
 ;; URL: http://raw.github.com/rolandwalker/syntactic-sugar/master/syntactic-sugar.el
 ;; Version: 0.9.2
 ;; Last-Updated: 30 Oct 2012
-;; EmacsWiki:
+;; EmacsWiki: SyntacticSugar
 ;; Package-Requires:
 ;; Keywords: extensions
 ;;
@@ -70,6 +70,9 @@
 ;;
 ;; When this library is loaded, the provided forms are registered as
 ;; keywords in font-lock.  This may be disabled via customize.
+;;
+;; The included macros are intentionally not autoloaded, because they
+;; are outside the package namespace.
 ;;
 ;; Compatibility and Requirements
 ;;
