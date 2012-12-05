@@ -129,7 +129,9 @@
 (defgroup syntactic-sugar nil
   "Effect-free forms for clarification"
   :version "0.9.2"
-  :link '(emacs-commentary-link "syntactic-sugar")
+  :link '(emacs-commentary-link :tag "Commentary" "syntactic-sugar")
+  :link '(url-link :tag "Github" "http://github.com/rolandwalker/syntactic-sugar")
+  :link '(url-link :tag "EmacsWiki" "http://emacswiki.org/emacs/SyntacticSugar")
   :prefix "syntactic-sugar-"
   :group 'extensions)
 
