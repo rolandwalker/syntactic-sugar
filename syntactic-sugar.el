@@ -1,6 +1,6 @@
 ;;; syntactic-sugar.el --- Effect-free forms such as if/then/else
 ;;
-;; Copyright (c) 2012 Roland Walker
+;; Copyright (c) 2012-13 Roland Walker
 ;;
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/syntactic-sugar
