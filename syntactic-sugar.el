@@ -4,7 +4,7 @@
 ;;
 ;; Author: Roland Walker <walker@pobox.com>
 ;; Homepage: http://github.com/rolandwalker/syntactic-sugar
-;; URL: http://raw.github.com/rolandwalker/syntactic-sugar/master/syntactic-sugar.el
+;; URL: http://raw.githubusercontent.com/rolandwalker/syntactic-sugar/master/syntactic-sugar.el
 ;; Version: 0.9.4
 ;; Last-Updated:  1 Nov 2013
 ;; EmacsWiki: SyntacticSugar
