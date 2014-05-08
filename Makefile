@@ -158,7 +158,7 @@ upload-github :
 	@git push origin master
 
 upload-marmalade :
-	@marmalade-upload roland.walker syntactic-sugar.el
+	@marmalade-upload roland.walker $(PACKAGE_NAME).el
 
 upload-wiki : not-dirty
 	@$(RESOLVED_EMACS) $(EMACS_BATCH) --eval          \
