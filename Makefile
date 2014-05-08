@@ -157,6 +157,9 @@ edit :
 upload-github :
 	@git push origin master
 
+upload-marmalade :
+	@marmalade-upload roland.walker syntactic-sugar.el
+
 upload-wiki : not-dirty
 	@$(RESOLVED_EMACS) $(EMACS_BATCH) --eval          \
 	 "(progn                                          \
