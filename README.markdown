@@ -8,7 +8,7 @@ Effect-free forms such as if/then/else for Emacs Lisp.
 Quickstart
 ----------
 
-```lisp
+```elisp
 (require 'syntactic-sugar)
  
 (if t
@@ -39,13 +39,13 @@ Note that as synonyms for `progn`, these forms have no useful
 effects, and no additional syntax check is done, so nothing
 prevents you from writing obfuscatory expressions such as
 
-```lisp
+```elisp
 (if t (else 1) (then 2))      ; same as (if t (progn 1) (progn 2))
 ```
 
 or idiotic expressions such as
 
-```lisp
+```elisp
 (if t
     (protected 1)
   (unwind 2))
@@ -58,7 +58,7 @@ documentation to this point, you are hopelessly impure at heart.
 To use syntactic-sugar, place the syntactic-sugar.el library somewhere
 Emacs can find it, and add the following to your ~/.emacs file:
 
-```lisp
+```elisp
 (require 'syntactic-sugar)
 ```
 
