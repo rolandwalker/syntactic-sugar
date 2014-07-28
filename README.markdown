@@ -1,12 +1,10 @@
 [![Build Status](https://secure.travis-ci.org/rolandwalker/syntactic-sugar.png?branch=master)](http://travis-ci.org/rolandwalker/syntactic-sugar)
 
-Overview
-========
+# Overview
 
 Effect-free forms such as if/then/else for Emacs Lisp.
 
-Quickstart
-----------
+## Quickstart
 
 ```elisp
 (require 'syntactic-sugar)
@@ -22,8 +20,7 @@ Quickstart
     (message "cleanup")))
 ```
 
-Explanation
------------
+## Explanation
 
 This library offers absolutely no functionality!  The following
 macros are provided as synonyms for `progn`:
@@ -62,8 +59,7 @@ Emacs can find it, and add the following to your ~/.emacs file:
 (require 'syntactic-sugar)
 ```
 
-Notes
------
+## Notes
 
 When this library is loaded, the provided forms are registered as
 keywords in font-lock.  This may be disabled via customize.
@@ -71,8 +67,7 @@ keywords in font-lock.  This may be disabled via customize.
 The included macros are intentionally not autoloaded, because they
 are outside the package namespace.
 
-Compatibility and Requirements
-------------------------------
+## Compatibility and Requirements
 
 	GNU Emacs version 24.4-devel     : yes, at the time of writing
 	GNU Emacs version 24.3           : yes
