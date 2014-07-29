@@ -62,7 +62,7 @@ Emacs can find it, and add the following to your `~/.emacs` file:
 ## Notes
 
 When this library is loaded, the provided forms are registered as
-keywords in font-lock.  This may be disabled via customize.
+keywords in font-lock.  This may be disabled via `customize`.
 
 The included macros are intentionally not autoloaded, because they
 are outside the package namespace.
