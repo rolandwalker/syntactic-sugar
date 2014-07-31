@@ -4,6 +4,11 @@
 
 Effect-free forms such as if/then/else for Emacs Lisp.
 
+ * [Quickstart](#quickstart)
+ * [Explanation](#explanation)
+ * [Notes](#notes)
+ * [Compatibility and Requirements](#compatibility-and-requirements)
+
 ## Quickstart
 
 ```elisp
